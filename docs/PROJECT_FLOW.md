@@ -261,8 +261,8 @@ flowchart LR
     USER["👤 User"]
     
     subgraph "CDC Portal Upload"
-        FE["🌐 React Frontend<br/>(Port 3000)"]
-        BE["⚙️ FastAPI Backend<br/>(Port 8000)"]
+        FE["🌐 React Frontend<br/>(Port 3010)"]
+        BE["⚙️ FastAPI Backend<br/>(Port 3011)"]
         PROC["📊 Excel Processors<br/>(per insurance type)"]
         DUP["🔍 Duplicate Service"]
     end
@@ -393,7 +393,7 @@ sequenceDiagram
 | **Streaming ETL** | affina_streaming_etl | Transform staging → reporting | Kafka (staging.*) | affina_reporting.contract |
 | **Profiling Consumer** | affina_profiling_consumer | Build profiling analysis | Kafka (staging.*) | affina_reporting.profiling_analysis |
 | **Event Publisher** | affina_event_publisher | Notify downstream apps | MySQL polling | RabbitMQ events |
-| **CDC Portal** | frontend + backend | Upload Excel offline data | Excel files | affina_staging.stgContractObjectOffline |
+| **CDC Portal** | portal_frontend + portal_backend | Upload Excel offline data | Excel files | affina_staging.stgContractObjectOffline |
 | **Kafka** | server_kafka | Message broker | Debezium events | Consumer groups |
 | **Redis** | redis | Deduplication cache | ETL/Profiling checks | Cache responses |
 | **RabbitMQ** | rabbitmq | Event bus for downstream | Publisher events | Application queues |
