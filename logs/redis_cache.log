@@ -1,0 +1,39 @@
+2026-03-24 14:52:43,072 - redis_cache - INFO - Starting full cache rebuild...
+2026-03-24 14:52:43,167 - redis_cache - INFO - TRAVEL: Added 80 keys to Redis
+2026-03-24 14:52:43,238 - redis_cache - INFO - VEHICLE: Added 227 keys to Redis
+2026-03-24 14:52:43,260 - redis_cache - ERROR - Error building cache for MOTO: 1054 (42S22): Unknown column 'com.contractObjectStartDate' in 'SELECT'
+2026-03-24 14:53:36,910 - redis_cache - INFO - Starting full cache rebuild...
+2026-03-24 14:53:36,988 - redis_cache - INFO - TRAVEL: Added 80 keys to Redis
+2026-03-24 14:53:37,059 - redis_cache - INFO - VEHICLE: Added 227 keys to Redis
+2026-03-24 14:53:37,082 - redis_cache - ERROR - Error building cache for MOTO: 1054 (42S22): Unknown column 'com.contractObjectStartDate' in 'SELECT'
+2026-03-24 14:56:02,087 - redis_cache - INFO - Starting full cache rebuild...
+2026-03-24 14:56:02,173 - redis_cache - INFO - TRAVEL: Added 80 keys to Redis
+2026-03-24 14:56:02,241 - redis_cache - INFO - VEHICLE: Added 227 keys to Redis
+2026-03-24 14:56:02,274 - redis_cache - INFO - MOTO: Added 47 keys to Redis
+2026-03-24 14:56:02,444 - redis_cache - INFO - HEALTH: Added 726 keys to Redis
+2026-03-24 14:56:02,672 - redis_cache - INFO - SOCIAL: Added 1028 keys to Redis
+2026-03-24 14:56:02,909 - redis_cache - INFO - MEDICAL: Added 1082 keys to Redis
+2026-03-24 14:56:02,967 - redis_cache - INFO - HOUSE: Added 171 keys to Redis
+2026-03-24 14:56:02,968 - redis_cache - INFO - Cache rebuild complete: 3361 total keys in 0.88s
+2026-03-24 14:56:02,969 - redis_cache - INFO -   Breakdown: {'TRAVEL': 80, 'VEHICLE': 227, 'MOTO': 47, 'HEALTH': 726, 'SOCIAL': 1028, 'MEDICAL': 1082, 'HOUSE': 171}
+2026-03-24 22:41:19,383 - redis_cache - INFO - Starting full cache rebuild...
+2026-03-24 22:41:19,471 - redis_cache - INFO - TRAVEL: Added 80 keys to Redis
+2026-03-24 22:41:19,546 - redis_cache - INFO - VEHICLE: Added 227 keys to Redis
+2026-03-24 22:41:19,585 - redis_cache - INFO - MOTO: Added 47 keys to Redis
+2026-03-24 22:41:19,793 - redis_cache - INFO - HEALTH: Added 745 keys to Redis
+2026-03-24 22:41:20,092 - redis_cache - INFO - SOCIAL: Added 1028 keys to Redis
+2026-03-24 22:41:20,438 - redis_cache - INFO - MEDICAL: Added 1098 keys to Redis
+2026-03-24 22:41:20,507 - redis_cache - INFO - HOUSE: Added 172 keys to Redis
+2026-03-24 22:41:20,508 - redis_cache - INFO - Cache rebuild complete: 3397 total keys in 1.12s
+2026-03-24 22:41:20,509 - redis_cache - INFO -   Breakdown: {'TRAVEL': 80, 'VEHICLE': 227, 'MOTO': 47, 'HEALTH': 745, 'SOCIAL': 1028, 'MEDICAL': 1098, 'HOUSE': 172}
+2026-03-24 23:22:50,891 - redis_cache - INFO - Starting full cache rebuild...
+2026-03-24 23:22:51,038 - redis_cache - INFO - TRAVEL: Added 80 keys to Redis
+2026-03-24 23:22:51,157 - redis_cache - INFO - VEHICLE: Added 227 keys to Redis
+2026-03-24 23:22:51,225 - redis_cache - INFO - MOTO: Added 47 keys to Redis
+2026-03-24 23:22:51,465 - redis_cache - INFO - HEALTH: Added 745 keys to Redis
+2026-03-24 23:22:51,760 - redis_cache - INFO - SOCIAL: Added 1028 keys to Redis
+2026-03-24 23:22:52,077 - redis_cache - INFO - MEDICAL: Added 1098 keys to Redis
+2026-03-24 23:22:52,149 - redis_cache - INFO - HOUSE: Added 172 keys to Redis
+2026-03-24 23:22:52,418 - redis_cache - INFO - OFFLINE: Added 973 keys to Redis
+2026-03-24 23:22:52,419 - redis_cache - INFO - Cache rebuild complete: 4370 total keys in 1.53s
+2026-03-24 23:22:52,420 - redis_cache - INFO -   Breakdown: {'TRAVEL': 80, 'VEHICLE': 227, 'MOTO': 47, 'HEALTH': 745, 'SOCIAL': 1028, 'MEDICAL': 1098, 'HOUSE': 172, 'OFFLINE': 973}
