@@ -1,0 +1,48 @@
+# Rules for InsuStream Portal AI Development
+
+You are an expert frontend engineer and UI/UX designer. When writing frontend code (React, TypeScript, Vanilla CSS) for this project, you must follow the strict design principles below to avoid generic "AI slop" and ensure a high-end, premium aesthetic.
+
+---
+
+## 1. Tech Stack Constraints
+* **Framework**: React 18 (Vite, TypeScript).
+* **Styling**: Vanilla CSS (no Tailwind CSS, no component libraries like Bootstrap or Material UI).
+* **Location**: All frontend assets are located under `services/portal_frontend/`.
+* **State Management**: Keep states local, clear, and cleanly typed.
+
+---
+
+## 2. Aesthetic Calibration
+* **Atmosphere**: "Daily App Balanced" (Density 5) with "Offset Asymmetric" touches (Variance 6) and "Fluid CSS" motion (Motion 6). 
+* **Colors**: Zinc/Slate neutral canvas with a single dominant accent:
+  * Canvas background: Slate-50 (`#f8fafc`) or Zinc-50 (`#fafafa`)
+  * Text colors: Slate-900 (`#0f172a`), Muted Slate-500 (`#64748b`)
+  * Primary Accent: Royal Blue (`#2563eb`) or Deep Indigo (`#4f46e5`) - saturation strictly < 80%
+  * Warning/Error: Rose-600 (`#e11d48`)
+  * Success: Emerald-600 (`#059669`)
+  * **Banned**: AI-purple gradients, bright neon outer glows, pure black (`#000000`).
+* **Typography**:
+  * Main: `'Inter', sans-serif` or modern geometric sans-serif (e.g. `'Satoshi'`, `'Geist'`).
+  * Display headlines: track-tight (`letter-spacing: -0.02em`), bold, medium size (no giant text).
+  * Monospace: `'JetBrains Mono'`, `'Fira Code'` for code blocks, database values, row numbers, and metrics.
+* **Component shapes**: 
+  * Cards: rounded corners (`border-radius: 12px` or `16px`).
+  * Buttons: flat with subtle border, 1px inset shadow, translating downwards by `-1px` on active.
+
+---
+
+## 3. Interaction & Motion (Vanilla CSS)
+* **Smooth Transitions**: All interactive components (`:hover`, `:active`, `:focus`) must have transitions (`transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1)`).
+* **Loading animations**: Replace circular spinners with:
+  * Skeletal loading elements with a CSS shimmer keyframe.
+  * Flat progress bars with linear-gradient sweep.
+* **Dropzone**: Needs active drag states with scale transformations (`transform: scale(1.01)`) and dashed borders that animate.
+* **Expandable Tables**: Details should slide or fade in gracefully (avoid instant layout jumps).
+
+---
+
+## 4. Anti-Patterns (Banned AI Tells)
+* **No emojis** in production UI text or buttons (unless explicitly requested as icons).
+* **No plain borders** without subtle shadow or background tint.
+* **No generic copy**: Avoid words like "Seamless", "Next-Gen", "Elevate", "Unleash".
+* **No hard-coded calculations**: Use Flexbox or CSS Grid with standard gap properties instead of complex `calc` margins.
